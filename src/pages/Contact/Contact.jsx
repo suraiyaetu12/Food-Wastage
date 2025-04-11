@@ -3,7 +3,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import bgFAQ from "./../../assets/bgContact.jpg";
 import React, { useState } from "react";
 import ScrollBar from "../Shared/ScrollBar/ScrollBar";
-import ScrollToTopButton from "../Shared/scrollToTopButton/scrollToTopButton";
+import ScrollToTopButton from "../Shared/ScrollToTopButton/ScrollToTopButton";
 
 const Contact = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -131,7 +131,7 @@ const Contact = () => {
       )}
     </div>
     {/* Back to Top */}
-    <ScrollToTopButton />
+    <ScrollToTopButton></ScrollToTopButton>
     </div>
   );
 };

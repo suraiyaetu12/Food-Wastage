@@ -1,7 +1,7 @@
 import React from "react";
 import { motion, useScroll } from "framer-motion";
-import ScrollToTopButton from "../Shared/scrollToTopButton/scrollToTopButton";
 import ScrollBar from "../Shared/ScrollBar/ScrollBar";
+import ScrollToTopButton from "../Shared/ScrollToTopButton/ScrollToTopButton";
 
 const sections = [
   {
@@ -110,7 +110,7 @@ const Policy = () => {
         </div>
 
         {/* Back to Top */}
-        <ScrollToTopButton />
+        <ScrollToTopButton></ScrollToTopButton>
       </div>
     </div>
   );

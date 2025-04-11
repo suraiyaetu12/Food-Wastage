@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 import forgetPassword from "../../assets/email-verification.gif";
 import ScrollBar from "../Shared/ScrollBar/ScrollBar";
-import ScrollToTopButton from "../Shared/scrollToTopButton/scrollToTopButton";
+import ScrollToTopButton from "../Shared/ScrollToTopButton/ScrollToTopButton";
 
 const ForgetPass = () => {
   const {
@@ -91,7 +91,7 @@ const ForgetPass = () => {
       )}
 
       {/* Back to Top */}
-      <ScrollToTopButton />
+      <ScrollToTopButton></ScrollToTopButton>
     </>
   );
 };

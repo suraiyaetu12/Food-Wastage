@@ -2,7 +2,7 @@ import React from "react";
 import { Toaster, toast } from "react-hot-toast";
 import bgFAQ from "./../../assets/info-bg.png";
 import ScrollBar from "../Shared/ScrollBar/ScrollBar";
-import ScrollToTopButton from "../Shared/scrollToTopButton/scrollToTopButton";
+import ScrollToTopButton from "../Shared/ScrollToTopButton/ScrollToTopButton";
 
 const FAQPage = () => {
   const handleSubmit = (e) => {
@@ -196,7 +196,7 @@ const FAQPage = () => {
         </section>
       </div>
       {/* Back to Top */}
-      <ScrollToTopButton />
+      <ScrollToTopButton></ScrollToTopButton>
     </div>
   );
 };

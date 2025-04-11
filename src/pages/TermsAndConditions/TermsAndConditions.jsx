@@ -1,6 +1,6 @@
 import React from 'react';
 import ScrollBar from '../Shared/ScrollBar/ScrollBar'; // Assuming you have a ScrollBar component
-import ScrollToTopButton from '../Shared/scrollToTopButton/scrollToTopButton';
+import ScrollToTopButton from '../Shared/ScrollToTopButton/ScrollToTopButton';
 
 const TermsAndConditions = () => {
   return (
@@ -65,7 +65,7 @@ const TermsAndConditions = () => {
         </p>
       </footer>
       {/* Back to Top */}
-      <ScrollToTopButton />
+      <ScrollToTopButton></ScrollToTopButton>
     </div>
   );
 };

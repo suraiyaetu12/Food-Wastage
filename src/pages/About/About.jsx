@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import banner from "./../../assets/banner-inside.svg";
-import ScrollToTopButton from "../Shared/scrollToTopButton/scrollToTopButton";
 import ScrollBar from "../Shared/ScrollBar/ScrollBar";
+import ScrollToTopButton from "../Shared/ScrollToTopButton/ScrollToTopButton";
 
 const About = () => {
   return (
@@ -89,7 +89,7 @@ const About = () => {
         </div>
       </section>
       {/* Back to Top */}
-      <ScrollToTopButton />
+      <ScrollToTopButton></ScrollToTopButton>
     </div>
   );
 };

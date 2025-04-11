@@ -6,7 +6,7 @@ import charity2 from "./../../assets/charity/charity2.jpg";
 import charity3 from "./../../assets/charity/charity3.jpg";
 import charity4 from "./../../assets/charity/charity4.jpg";
 import ScrollBar from "../Shared/ScrollBar/ScrollBar";
-import ScrollToTopButton from "../Shared/scrollToTopButton/scrollToTopButton";
+import ScrollToTopButton from "../Shared/ScrollToTopButton/ScrollToTopButton";
 
 const CharityActivities = () => {
   const activities = [
@@ -92,7 +92,7 @@ const CharityActivities = () => {
         </div>
       </div>
       {/* Back to Top */}
-      <ScrollToTopButton />
+      <ScrollToTopButton></ScrollToTopButton>
     </>
   );
 };
