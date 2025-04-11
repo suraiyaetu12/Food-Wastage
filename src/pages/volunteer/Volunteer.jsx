@@ -10,8 +10,8 @@ import review6 from "./../../assets/reviwer/review6.jpg";
 import review7 from "./../../assets/reviwer/review7.jpg";
 import review8 from "./../../assets/reviwer/review8.jpg";
 import Testimonial from './volunteerMarquee';
-import ScrollToTopButton from '../Shared/scrollToTopButton/scrollToTopButton';
 import ScrollBar from '../Shared/ScrollBar/ScrollBar';
+import ScrollToTopButton from '../Shared/ScrollToTopButton/ScrollToTopButton';
 
 const Volunteer = () => {
   const reviewInfo = [
@@ -141,7 +141,7 @@ const Volunteer = () => {
         </Marquee>
       </section>
       {/* Back to Top */}
-      <ScrollToTopButton />
+      <ScrollToTopButton></ScrollToTopButton>
     </div>
   );
 };
