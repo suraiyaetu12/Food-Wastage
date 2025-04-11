@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import PhotoAlbum, { RowsPhotoAlbum } from "react-photo-album";
 import "react-photo-album/styles.css";
-import ScrollToTopButton from "../Shared/scrollToTopButton/scrollToTopButton";
 import ScrollBar from "../Shared/ScrollBar/ScrollBar";
+import ScrollToTopButton from "../Shared/ScrollToTopButton/ScrollToTopButton.jsx";
 
 const photos = [
   {
@@ -173,7 +173,7 @@ const TopContributorPage = () => {
         />
       </div>
       {/* Back to Top */}
-      <ScrollToTopButton />
+      <ScrollToTopButton></ScrollToTopButton>
     </div>
   );
 };
