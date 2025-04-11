@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import bgFAQ from "./../../assets/info-bg.svg";
 import ScrollBar from "../Shared/ScrollBar/ScrollBar";
-import ScrollToTopButton from "../Shared/scrollToTopButton/scrollToTopButton";
+import ScrollToTopButton from "../Shared/ScrollToTopButton/ScrollToTopButton";
 
 const Donate = () => {
   const [formData, setFormData] = useState({
@@ -115,7 +115,7 @@ const Donate = () => {
       )}
 
       {/* Back to Top */}
-      <ScrollToTopButton />
+      <ScrollToTopButton></ScrollToTopButton>
     </div>
   );
 };
